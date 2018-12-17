@@ -13,7 +13,7 @@ public class BodyMassIndex{
     
     public static void compute(){
 		Scanner scanner = new Scanner(System.in);
-	    System.out.println("Enter the weight in pounds please...>>");
+	        System.out.println("Enter the weight in pounds please...>>");
 		double we = scanner.nextDouble();// weight in pounds
 		double weight = we * 0.45359237 ;// weight in kilograms
 		System.out.println ("Enter the height in inches please...>>");
